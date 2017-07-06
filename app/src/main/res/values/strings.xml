@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Inventory Udacity App</string>
+    <string name="delete_all">Delete all records</string>
+    <string name="insert_dummy">Insert Dummy data</string>
+    <string name="delete_all_message">Are you sure you want to proceed with all data deletion?. This can\'t be undone.</string>
+    <string name="delete_one_message">Are you sure you want to delete this item?</string>
+    <string name="delete">Delete</string>
+    <string name="delete_item">Delete this record</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="order_supplies">Order to supplier</string>
+    <string name="empty_list">The inventory is empty.\nStart adding some items.</string>
+    <string name="price">Price: </string>
+    <string name="currency">$</string>
+    <string name="quantity">Qty: </string>
+    <string name="product_title">Product Title</string>
+    <string name="product_title_hint">Insert name of the item</string>
+    <string name="new_item">Add new item to inventory</string>
+    <string name="edit_item">Editing Item</string>
+    <string name="you_must_fill">You must fill the </string>
+    <string name="back">Back</string>
+    <string name="select_image">Pleae select the item picture</string>
+    <string name="product_title_validation">Product Title</string>
+    <string name="product_price_validation">Product Price</string>
+    <string name="product_quantity_validation">Product Quantity</string>
+    <string name="product_suplier_name_validation">Product Supplier Name</string>
+    <string name="product_suplier_email_validation">Product Supplier Email</string>
+    <string name="supplier_info_title">Supplier Info</string>
+    <string name="supplier_email_title">Supplier E-mail Address</string>
+    <string name="hint_supplier">Insert name of the supplier/provider</string>
+    <string name="hint_email">mybestsupplier@yummy.eat</string>
+    <string name="email">E-mail</string>
+    <string name="price_title">Price</string>
+    <string name="image">Image</string>
+    <string name="lost_changes">There are unsaved changes. Do you want to exit without save?</string>
+    <string name="yes">Yes</string>
+    <string name="no_keep_editing">No, keep editing</string>
+    <string name="no_image">You must select an image for the product</string>
+    <string name="sold_out">SOLD OUT</string>
+
+
+</resources>

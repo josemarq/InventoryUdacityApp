@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout style="@style/layout_details">
+
+        <TextView
+            android:id="@+id/product_name_title"
+            style="@style/product_title"
+            android:text="@string/product_title" />
+
+        <EditText
+            android:id="@+id/product_name_edit"
+            style="@style/product_title_editText"
+            android:hint="@string/product_title_hint" />
+
+        <TextView
+            android:id="@+id/price_title"
+            style="@style/price_title"
+            android:text="@string/price_title" />
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/price_edit"
+                style="@style/price_title_editText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/currency" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/quantity_title"
+            style="@style/quantity_title"
+            android:text="QTY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <Button
+                android:id="@+id/decrease_quantity"
+                style="@style/button_quatity"
+                android:text="-" />
+
+            <EditText
+                android:id="@+id/quantity_edit"
+                style="@style/quatity_editText" />
+
+            <Button
+                android:id="@+id/increase_quantity"
+                style="@style/button_quatity"
+                android:text="+" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/supplier_name_title"
+            style="@style/supplier_title"
+            android:text="@string/supplier_info_title" />
+
+        <EditText
+            android:id="@+id/supplier_name_edit"
+            style="@style/supplier_editText"
+            android:hint="@string/hint_supplier" />
+
+
+        <TextView
+            android:id="@+id/supplier_email_title"
+            style="@style/email_title"
+            android:text="@string/email" />
+
+        <EditText
+            android:id="@+id/supplier_email_edit"
+            style="@style/email_editText"
+            android:hint="@string/hint_email" />
+
+        <View style="@style/separator" />
+
+        <TextView
+            android:id="@+id/image_title"
+            style="@style/supplier_title"
+            android:text="@string/image" />
+
+        <ImageButton
+            android:id="@+id/select_image"
+            style="@style/image_button"
+            android:src="@drawable/upload" />
+
+        <ImageView
+            android:id="@+id/image_view"
+            style="@style/image_product"
+            tools:src="@drawable/cart" />
+
+    </LinearLayout>
+
+</ScrollView>

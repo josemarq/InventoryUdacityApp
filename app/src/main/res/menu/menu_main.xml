@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_add_dummy"
+        android:title="@string/insert_dummy"
+        android:icon="@drawable/ic_action_dummy"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_delete_all_data"
+        android:title="@string/delete_all"
+        android:icon="@drawable/ic_action_delete_all"
+        app:showAsAction="always" />
+
+</menu>
