@@ -57,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
 
         adapter = new ItemCursorAdapter(this, cursor);
         listView.setAdapter(adapter);
+        //Close Cursor
+        cursor.close();
 
         //Method for hide/show FAB on scroll
         listView.setOnScrollListener(new AbsListView.OnScrollListener() {
@@ -216,4 +218,5 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
     }
+
 }

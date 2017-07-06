@@ -279,6 +279,7 @@ public class DetailsActivity extends AppCompatActivity {
         supplierNameEdit.setEnabled(false);
         supplierEmailEdit.setEnabled(false);
         imageBtn.setEnabled(false);
+        cursor.close();
     }
 
     private void orderSupplies() {
